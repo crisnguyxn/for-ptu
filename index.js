@@ -58,73 +58,73 @@ function changeVideo(num){
     if(isHobbies == true && isOthers == false && isGraduated==false){
         switch (num) {
             case '1':
-                get('image/6290982273928952298.mp4')
+                get('Image/6290982273928952298.mp4')
                 break;
             case '2':
-                get('image/4499800472632964611.mp4')
+                get('Image/4499800472632964611.mp4')
                 break;
             case '3':
-                get('image/4432998763900743695.mp4')
+                get('Image/4432998763900743695.mp4')
                 break;
             case '4':
-                get('image/3119988484290305162.mp4')
+                get('Image/3119988484290305162.mp4')
                 break;      
             case '5':
-                get('image/2933534573093619229.mp4')
+                get('Image/2933534573093619229.mp4')
                 break;
             case '6':
-                get('image/525038913447562977.mp4')
+                get('Image/525038913447562977.mp4')
                 break;                
             default:
-                get('image/177689356296016867.mp4')
+                get('Image/177689356296016867.mp4')
                 break;
         }
     }else if(isHobbies == false && isOthers == false && isGraduated==true){
         switch (num) {
             case '1':
-                getImage('./image/433915686_781280047244446_5893097191057064215_n.JPG')
+                getImage('./Image/433915686_781280047244446_5893097191057064215_n.JPG')
                 break;
             case '2':
-                getImage('./image/434061929_781279713911146_3198732874193254109_n.JPG')
+                getImage('./Image/434061929_781279713911146_3198732874193254109_n.JPG')
                 break;
             case '3':
-                getImage('./image/434092609_781279270577857_8299416236944266050_n.JPG')
+                getImage('./Image/434092609_781279270577857_8299416236944266050_n.JPG')
                 break;
             case '4':
-                getImage('./image/434102565_781279630577821_8429915896090859182_n (1).JPG')
+                getImage('./Image/434102565_781279630577821_8429915896090859182_n (1).JPG')
                 break;      
             case '5':
-                getImage('./image/434106681_781279090577875_6497263878097776649_n.JPG')
+                getImage('./Image/434106681_781279090577875_6497263878097776649_n.JPG')
                 break;
             case '6':
-                getImage('./image/434110867_781279170577867_6839223826869114252_n.JPG')
+                getImage('./Image/434110867_781279170577867_6839223826869114252_n.JPG')
                 break;                
             default:
-                getImage('./image/434117065_781279787244472_5554633846779662773_n.JPG')
+                getImage('./Image/434117065_781279787244472_5554633846779662773_n.JPG')
                 break;
         }
     }else{
         switch (num) {
             case '1':
-                getImage('./image/322545944_551017010274530_2541771645935177135_n.JPG')
+                getImage('./Image/322545944_551017010274530_2541771645935177135_n.JPG')
                 break;
             case '2':
-                getImage('./image/322236781_879106373132749_4559346619123701025_n.JPG')
+                getImage('./Image/322236781_879106373132749_4559346619123701025_n.JPG')
                 break;
             case '3':
-                getImage('./image/361314235_651874086851710_1055786952365957850_n.JPG')
+                getImage('./Image/361314235_651874086851710_1055786952365957850_n.JPG')
                 break;
             case '4':
-                getImage('./image/364720316_660089806030138_6880253053842894458_n.JPG')
+                getImage('./Image/364720316_660089806030138_6880253053842894458_n.JPG')
                 break;      
             case '5':
-                getImage('./image/405099345_717257200313398_8284918503974063575_n.JPG')
+                getImage('./Image/405099345_717257200313398_8284918503974063575_n.JPG')
                 break;
             case '6':
-                getImage('./image/434626362_787891996583251_8394965305445031840_n.JPG')
+                getImage('./Image/434626362_787891996583251_8394965305445031840_n.JPG')
                 break;                
             default:
-                getImage('./image/373728442_675279704511148_8072884808648686895_n.JPG')
+                getImage('./Image/373728442_675279704511148_8072884808648686895_n.JPG')
                 break;
         }
     }
