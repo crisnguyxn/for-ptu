@@ -1,0 +1,413 @@
+
+body{
+    background-color: rgb(233, 94, 117);
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    position: relative;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    flex-direction: column;
+    color:white;
+}
+h3{
+    letter-spacing: 4px;
+}
+.btn{
+    display: flex;
+    height: 70px;
+    width:70px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: rgb(168, 80, 95);
+    background-color: rgb(201, 8, 40);
+    border: none;
+    transform: rotate(-45deg);
+    z-index: 1;
+    margin:10px;
+}
+.btn::before{
+  content: '';
+  position: absolute;
+  height: 70px;
+  width:70px;
+  background-color: rgb(201, 8, 40);
+  top:-50%;
+  border-radius: 180px;
+  z-index: 1;
+}
+.btn::after{
+  content: '';
+  position: absolute;
+  height: 70px;
+  width: 70px;
+  background-color: rgb(201, 8, 40);
+  right:-50%;
+  border-radius: 180px;
+  z-index: 1;
+}
+.options{
+    display: none;
+}
+.options button{
+    background-color: white;
+    letter-spacing: 2px;
+    padding:7 12 7 12;
+}
+.card-1{
+    height: 400px;
+    margin:10px;
+    width: 250px;
+    background-color:  rgb(233, 161, 161);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+}
+.card-2{
+    height: 400px;
+    margin:10px;
+    width: 250px;
+    background-color:  rgb(233, 161, 161);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+}
+.card-1:hover{
+    background-image: url("image/cay.png");
+    button{
+        display: none;
+    }
+}
+.card-2:hover{
+    background-image: url("image/len.png");
+    button{
+        display: none;
+    }
+}
+.float-card{
+    height: 400px;
+    margin:10px;
+    width: 250px;
+    background-image: url("image/cay.png");
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    transform: translateX(-300px);
+    transition-duration: 3s;
+    scale: 1.4;
+}
+.float-card-2{
+    height: 400px;
+    margin:10px;
+    width: 250px;
+    background-image: url("image/len.png");
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    transform: translateX(300px);
+    transition-duration: 3s;
+    scale: 1.4;
+}
+.disp{
+    display: none;
+}
+
+.heart{
+  height: 200px;
+  width: 200px;
+  background-color: rgb(201, 8, 40);
+  position: relative;
+  transform: rotate(-45deg);
+  box-shadow: -10px 10px 90px rgb(201, 8, 40);
+  animation: heart 0.6s linear infinite;
+  position: fixed;
+  top:10px;
+  left:10px;
+}
+
+@keyframes heart {
+  0%{
+    transform: rotate(-45deg) scale(1.07);
+  }
+  80%{
+    transform: rotate(-45deg) scale(1.0);
+  }
+  100%{
+    transform: rotate(-45deg) scale(0.8);
+  }
+  
+}
+.heart:before{
+  content: '';
+  position: absolute;
+  height: 200px;
+  width: 200px;
+  background-color: rgb(201, 8, 40);
+  top:-50%;
+  border-radius: 180px;
+}
+.heart:after{
+  content: '';
+  position: absolute;
+  height: 200px;
+  width: 200px;
+  background-color: rgb(201, 8, 40);
+  right:-50%;
+  border-radius: 180px;
+}
+
+.heart-2{
+  height: 200px;
+  width: 200px;
+  background-color: rgb(201, 8, 40);
+  position: relative;
+  transform: rotate(-45deg);
+  box-shadow: -10px 10px 90px rgb(201, 8, 40);
+  animation: heart 0.6s linear infinite;
+  position: fixed;
+  top:10px;
+  right:10px;
+}
+@keyframes heart {
+  0%{
+    transform: rotate(-45deg) scale(1.01);
+  }
+  80%{
+    transform: rotate(-45deg) scale(1.0);
+  }
+  100%{
+    transform: rotate(-45deg) scale(0.1);
+  }
+  
+}
+
+.heart-2:before{
+  content: '';
+  position: absolute;
+  height: 200px;
+  width: 200px;
+  background-color: rgb(201, 8, 40);
+  top:-50%;
+  border-radius: 180px;
+}
+.heart-2:after{
+  content: '';
+  position: absolute;
+  height: 200px;
+  width: 200px;
+  background-color: rgb(201, 8, 40);
+  right:-50%;
+  border-radius: 180px;
+}
+
+.heart-3{
+  height: 200px;
+  width: 200px;
+  background-color: rgb(201, 8, 40);
+  position: relative;
+  transform: rotate(-45deg);
+  box-shadow: -10px 10px 90px rgb(201, 8, 40);
+  animation: heart 0.6s linear infinite;
+  z-index: -1;
+  position: absolute;
+  top:40%;
+}
+
+@keyframes heart {
+  0%{
+    transform: rotate(-45deg) scale(1.07);
+  }
+  80%{
+    transform: rotate(-45deg) scale(1.0);
+  }
+  100%{
+    transform: rotate(-45deg) scale(0.8);
+  }
+  
+}
+
+.heart-3:before{
+  content: '';
+  position: absolute;
+  height: 200px;
+  width: 200px;
+  background-color: rgb(201, 8, 40);
+  top:-50%;
+  border-radius: 180px;
+}
+.heart-3:after{
+  content: '';
+  position: absolute;
+  height: 200px;
+  width: 200px;
+  background-color: rgb(201, 8, 40);
+  right:-50%;
+  border-radius: 180px;
+}
+
+.heart-4{
+  height: 200px;
+  width: 200px;
+  background-color: rgb(201, 8, 40);
+  position: relative;
+  transform: rotate(-45deg);
+  box-shadow: -10px 10px 90px rgb(201, 8, 40);
+  animation: heart 0.6s linear infinite;
+  position: fixed;
+  bottom:10px;
+  left:10px;
+}
+
+@keyframes heart {
+  0%{
+    transform: rotate(-45deg) scale(1.07);
+  }
+  80%{
+    transform: rotate(-45deg) scale(1.0);
+  }
+  100%{
+    transform: rotate(-45deg) scale(0.8);
+  }
+  
+}
+
+.heart-4:before{
+  content: '';
+  position: absolute;
+  height: 200px;
+  width: 200px;
+  background-color: rgb(201, 8, 40);
+  top:-50%;
+  border-radius: 180px;
+}
+.heart-4:after{
+  content: '';
+  position: absolute;
+  height: 200px;
+  width: 200px;
+  background-color: rgb(201, 8, 40);
+  right:-50%;
+  border-radius: 180px;
+}
+.heart-5{
+  height: 200px;
+  width: 200px;
+  background-color: rgb(201, 8, 40);
+  position: relative;
+  transform: rotate(-45deg);
+  box-shadow: -10px 10px 90px rgb(201, 8, 40);
+  animation: heart 0.6s linear infinite;
+  position: fixed;
+  bottom:10px;
+  right:10px;
+}
+
+@keyframes heart {
+  0%{
+    transform: rotate(-45deg) scale(1.07);
+  }
+  80%{
+    transform: rotate(-45deg) scale(1.0);
+  }
+  100%{
+    transform: rotate(-45deg) scale(0.8);
+  }
+  
+}
+
+.heart-5:before{
+  content: '';
+  position: absolute;
+  height: 200px;
+  width: 200px;
+  background-color: rgb(201, 8, 40);
+  top:-50%;
+  border-radius: 180px;
+}
+.heart-5:after{
+  content: '';
+  position: absolute;
+  height: 200px;
+  width: 200px;
+  background-color: rgb(201, 8, 40);
+  right:-50%;
+  border-radius: 180px;
+}
+.child{
+  width: 500px;
+  background-color: rgb(201, 8, 40);
+  box-shadow: -10px 10px 90px rgb(201, 8, 40);
+  border-radius: 40px;
+  display: none;
+  padding:30px 0 20px 0;
+}
+.child video{
+  display: flex;
+  height: 400px;
+  margin-bottom: 20px;
+}
+.gift{
+  display: flex;
+  flex-direction: column;
+}
+.child{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.gift button{
+  height: 40px;
+  width: 40px;
+  background-color: white;
+  margin:10px;
+  border-radius: 10px;
+  border:none;
+  background-color: rgb(105, 3, 20);
+  color:white;
+}
+.videos{
+  display: none;
+  border:1px solid rgb(201, 8, 40);
+  border-radius: 30px;
+  padding:10px;
+  box-shadow: -10px 10px 90px rgb(201, 8, 40);
+}
+.graduation{
+  position: fixed;
+  top:60px;
+  left:35px;
+  color:white;
+  letter-spacing: 5px;
+}
+
+.hobbies{
+  position: fixed;
+  bottom:100px;
+  left:55px;
+  color:white;
+  letter-spacing: 5px;
+}
+
+.others{
+  position: fixed;
+  top:60px;
+  right: 65px;
+  color:white;
+  letter-spacing: 5px;
+}
+

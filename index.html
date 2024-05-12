@@ -1,0 +1,56 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    
+</head>
+<body>
+    <div class="container">
+        <button class="btn" onclick="changeType()" id="btn"></button>
+        <h3 id="sent" class="text"></h3>
+        <div id="btn2" class="btn2">
+        </div>
+        <div onclick="changeMemory('graduated')" class="heart">
+        </div>
+        <div onclick="changeMemory('others')" class="heart-2">
+        </div>
+        <div onclick="changeMemory('hobbies')" class="heart-4">
+        </div>
+        <div onclick="changeMemory()" class="heart-5">
+        </div>
+        <div id="videos" class="videos">
+            <div id="child" class="child">
+                <video id="vdisk" muted>
+                    <source id="video" src="image/6290982273928952298.mp4"/>
+                </video>
+            </div>
+            <div class="gift">
+                <button onclick="changeVideo('1')">1</button>
+                <button onclick="changeVideo('2')">2</button>
+                <button onclick="changeVideo('3')">3</button>
+                <button onclick="changeVideo('4')">4</button>
+                <button onclick="changeVideo('5')">5</button>
+                <button onclick="changeVideo('6')">6</button>
+                <button onclick="changeVideo('7')">7</button>
+            </div>
+        </div>
+        <div>
+            <audio autoplay loop>
+                <source src="image/ChiViQuaYeuEm-HinsCheungTruongKinhHien-5024818.mp3" type="audio/ogg">
+            </audio>
+        </div>
+        <div>
+            <h3 class="graduation">Gradutation</h3>
+            <h3 class="hobbies">Hobbies</h3>
+            <h3 class="others">Others</h3>
+        </div>
+    </div>
+</body>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wdth,wght@0,85.1,300..800;1,85.1,300..800&family=Poppins:wght@200&display=swap');
+</style>
+</html>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script type="text/javascript"  src="index.js"></script>
