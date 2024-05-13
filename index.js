@@ -82,49 +82,49 @@ function changeVideo(num){
     }else if(isHobbies == false && isOthers == false && isGraduated==true){
         switch (num) {
             case '1':
-                getImage('./Image/433915686_781280047244446_5893097191057064215_n.JPG')
+                getImage('./Image/Twelve.JPG')
                 break;
             case '2':
-                getImage('./Image/434061929_781279713911146_3198732874193254109_n.JPG')
+                getImage('./Image/Thirteen.JPG')
                 break;
             case '3':
-                getImage('./Image/434092609_781279270577857_8299416236944266050_n.JPG')
+                getImage('./Image/Ten.JPG')
                 break;
             case '4':
-                getImage('./Image/434102565_781279630577821_8429915896090859182_n (1).JPG')
+                getImage('./Image/Night.JPG')
                 break;      
             case '5':
-                getImage('./Image/434106681_781279090577875_6497263878097776649_n.JPG')
+                getImage('./Image/Fourteen.JPG')
                 break;
             case '6':
-                getImage('./Image/434110867_781279170577867_6839223826869114252_n.JPG')
+                getImage('./Image/Fifteen.JPG')
                 break;                
             default:
-                getImage('./Image/434117065_781279787244472_5554633846779662773_n.JPG')
+                getImage('./Image/Elevent.JPG')
                 break;
         }
     }else{
         switch (num) {
             case '1':
-                getImage('./Image/322545944_551017010274530_2541771645935177135_n.JPG')
+                getImage('./Image/Five.JPG')
                 break;
             case '2':
-                getImage('./Image/322236781_879106373132749_4559346619123701025_n.JPG')
+                getImage('./Image/Four.JPG')
                 break;
             case '3':
-                getImage('./Image/361314235_651874086851710_1055786952365957850_n.JPG')
+                getImage('./Image/One.JPG')
                 break;
             case '4':
-                getImage('./Image/364720316_660089806030138_6880253053842894458_n.JPG')
+                getImage('./Image/Seven.JPG')
                 break;      
             case '5':
-                getImage('./Image/405099345_717257200313398_8284918503974063575_n.JPG')
+                getImage('./Image/Six.JPG')
                 break;
             case '6':
-                getImage('./Image/434626362_787891996583251_8394965305445031840_n.JPG')
+                getImage('./Image/Sixteen.JPG')
                 break;                
             default:
-                getImage('./Image/373728442_675279704511148_8072884808648686895_n.JPG')
+                getImage('./Image/Two.JPG')
                 break;
         }
     }
@@ -136,7 +136,7 @@ function changeMemory(sentence){
         isGraduated = true;
         isOthers=false;
         videos.style.display = "none";
-        childs.innerHTML=`<img id="img" src="/image/433915686_781280047244446_5893097191057064215_n.JPG" height=400 width=225 />`
+        childs.innerHTML=`<img id="img" src="/Image/eight.JPG" height=400 width=225 />`
     }else if(sentence=='others'){
         isHobbies = false;
         isGraduated = false;
