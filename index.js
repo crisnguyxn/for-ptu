@@ -136,13 +136,13 @@ function changeMemory(sentence){
         isGraduated = true;
         isOthers=false;
         videos.style.display = "none";
-        childs.innerHTML=`<img id="img" src="/Image/eight.JPG" height=400 width=225 />`
+        childs.innerHTML=`<img id="img" src="./Image/eight.JPG" height=400 width=225 />`
     }else if(sentence=='others'){
         isHobbies = false;
         isGraduated = false;
         isOthers=true;
         videos.style.display = "none";
-        childs.innerHTML=`<img id="img" src="/image/279303387_377871030918685_6702003316900174244_n.JPG" height=400 width=225 />`
+        childs.innerHTML=`<img id="img" src="./Image/Three.JPG" height=400 width=225 />`
     }else if(sentence=='hobbies'){
         isHobbies = true;
         isGraduated = false;
